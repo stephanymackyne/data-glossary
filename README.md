@@ -36,6 +36,8 @@
 <details>
   <summary>Banco de dados</summary>
  
+ * BD relacional: SQL Server, MySQL
+ * BD não relacional: Cosmos DB
 </details>
 
 <details>
@@ -92,6 +94,14 @@
 </details>
 
 <details>
+ <summary>Dados</summary>
+ 
+ * Dados estruturados: Excel, SQL.
+ * Dados semi-estruturados: parquet, json.
+ * Dados não estruturados: imagem, vídeo.
+</details>
+
+<details>
   <summary>Data lake</summary>
  
  Tudo o que tem de dado, seja de qualquer tipo (relacional, não relacional, estruturado, não estruturado, etc.). Dados estruturados em diferentes camadas.
@@ -133,6 +143,12 @@
   <summary>Json</summary>
  
  Notação de dados primitivos. Apenas texto, número e booleano.
+</details>
+
+<details>
+  <summary>Metadados</summary>
+ 
+ Dados que são informações estruturadas que auxiliam na descrição, identificação, etc. de outros dados.
 </details>
 
 <details>
@@ -216,9 +232,6 @@ Documentos com todas as informações correlacionadas à principal (estruturas d
  
  * .agg():
  * .pivot():
- * BD estruturado:
- * BD não estruturado:
- * BD relacional:
  * Chave estrangeira:
  * Chave primária:
  * Cliente:
@@ -237,3 +250,11 @@ Documentos com todas as informações correlacionadas à principal (estruturas d
  
  Processamento do dado no momento exato em que chega.
 </details>
+
+<details>
+ <summary>Wrangling</summary>
+ 
+ É o processo pelo qual você transforma e mapeia dados brutos em um formato mais útil para análise. Pode envolver escrita de código para capturar, filtrar, limpar, combinar e agregar dados de diversas fontes.
+ </details>
+ 
+ 
