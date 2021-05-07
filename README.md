@@ -1,5 +1,5 @@
 # Data Glossary
- A glossary of Data terms
+Brief explanations of Data terms
  
 <details>
    <summary>ACID</summary>
@@ -65,7 +65,7 @@
 <details>
   <summary>Batch processing</summary>
  
- Armazena os dados no buffer e os processa em grupos.
+ Armazena os dados no buffer e os processa em grupos. Utilizado em Big Data. U-SQL, Hive, Pig, Spark.
 </details>
 
 <details>
@@ -97,7 +97,7 @@
  <summary>Dados</summary>
  
  * Dados estruturados: Excel, SQL.
- * Dados semi-estruturados: parquet, json.
+ * Dados semi-estruturados: parquet, json, XML.
  * Dados não estruturados: imagem, vídeo.
 </details>
 
@@ -196,7 +196,7 @@ Documentos com todas as informações correlacionadas à principal (estruturas d
 <details>
   <summary>Pipeline</summary>
  
- Fluxo de dados.
+Pipelines são fluxos onde a entrada de um dado é processado e enviado para outro processo, cada processo executa uma tarefa específica que contribui para um objetivo maior (task).
 </details>
 
 <details>
@@ -249,6 +249,12 @@ Documentos com todas as informações correlacionadas à principal (estruturas d
   <summary>Streaming data</summary>
  
  Processamento do dado no momento exato em que chega.
+</details>
+
+<details>
+  <summary>Tupla</summary>
+ 
+Uma linha (registro) numa tabela de BD relacional.
 </details>
 
 <details>
