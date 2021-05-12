@@ -96,21 +96,33 @@ Brief explanations of Data terms
 <details>
  <summary>Dados</summary>
  
- * Dados estruturados: Excel, SQL.
- * Dados semi-estruturados: parquet, json, XML.
- * Dados não estruturados: imagem, vídeo.
+ * Dados estruturados: dados armazenados em estruturas bem definidas e consistentes como tabelas e planilhas com linhas, colunas e campos pré definidos eEx.: Excel, SQL.
+ * Dados semi-estruturados: possuem características definidas, sendo parcialmente estruturados, mas não se limitam a uma estrutura rígida. Ex.: parquet, json, XML.
+ * Dados não estruturados: não possuem estrutura nem padrão pré-definido, são dados flexíveis e dinâmicos, podendo ser compostos por diversos elementos diferentes dentro um todo. Ex.: imagem, vídeo, texto.
+</details>
+
+<details>
+ <summary>Dark/Dusty Data</summary>
+ 
+ São os dados que são coletados acidentalmente, como uma subprodução pelo uso de uma aplicação. Normalmente é um dado não estruturado e, na maioria das vezes, não chega a ser utilizado ou armazenado.
+</details>
+
+<details>
+ <summary>Data Hub</summary>
+ 
+ O local ideal para os dados centrais de uma organização. Ele permite o compartilhamento e distribuição de dados na forma de uma arquitetura hub and spoke.
 </details>
 
 <details>
   <summary>Data lake</summary>
  
- Tudo o que tem de dado, seja de qualquer tipo (relacional, não relacional, estruturado, não estruturado, etc.). Dados estruturados em diferentes camadas.
+ Repositório centralizado de dados brutos e não estruturados, mais comumente implementado numa plataforma de armazenamento baseada em nuvem. Tudo o que tem de dado, seja de qualquer tipo (relacional, não relacional, estruturado, não estruturado, etc.). Dados estruturados em diferentes camadas.
 </details>
 
 <details>
   <summary>Data warehouse</summary>
  
- Centraliza e consolida grandes quantidades de dados de várias fontes. Inclue banco de dados relacional, solução de ETL, ferramenta de analytics. Não exclue a utilização do data lake.
+ Um sistema de gerenciamento de dados que armazena-os de forma organizada. Extrai, centraliza e consolida grandes quantidades de dados de diferentes fontes dentro de uma organização, onde ficam disponíveis para consultas e análises. Inclui banco de dados relacional, solução de ETL, ferramenta de analytics. Não exclui a utilização do data lake.
 </details>
 
 <details>
@@ -126,7 +138,7 @@ Brief explanations of Data terms
 <details>
   <summary>ETL (CONTINUAR)</summary>
  
- Sigla para Extract, Trasform e Load. Pega os dados na base quente e envia para a base fria. 
+ Sigla para Extract, Trasform e Load. O processo de migração de dados que extrai, transforma e carrega os dados em várias zonas para que os usuários de negócios extraiam seu valor. Pega os dados na base quente e envia para a base fria. 
 </details>
 
 <details>
@@ -143,6 +155,12 @@ Brief explanations of Data terms
   <summary>Json</summary>
  
  Notação de dados primitivos. Apenas texto, número e booleano.
+</details>
+
+<details>
+  <summary>Labeled Data</summary>
+ 
+ São os dados rotulados como metadados, ou "tags", que ajudam a pesquisar os dados posteriormente. Os dados rotulados são usados para ensinar aos algoritmos de aprendizagem de máquina o que queremos que eles procurem.
 </details>
 
 <details>
