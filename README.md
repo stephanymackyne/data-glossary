@@ -120,6 +120,12 @@ Brief explanations of Data terms
 </details>
 
 <details>
+  <summary>Data mart</summary>
+ 
+ Coleção de dados de um processo específico de negócios.
+ </details>
+
+<details>
   <summary>Data warehouse</summary>
  
  Um sistema de gerenciamento de dados que armazena-os de forma organizada. Extrai, centraliza e consolida grandes quantidades de dados de diferentes fontes dentro de uma organização, onde ficam disponíveis para consultas e análises. Inclui banco de dados relacional, solução de ETL, ferramenta de analytics. Não exclui a utilização do data lake.
