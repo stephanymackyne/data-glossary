@@ -13,6 +13,12 @@ Brief explanations of Data terms
 </details>
 
 <details>
+  <summary>Análise Preditiva</summary>
+ 
+ Aplicação de algoritmos estatísticos e de aprendizado de máquina para identificar a probabilidade de resultados futuros a partir de dados históricos.
+</details>
+
+<details>
   <summary>Arquitetura de soluções</summary>
  
 </details>
@@ -21,6 +27,12 @@ Brief explanations of Data terms
   <summary>Arquitetura do projeto</summary>
  
  Caminho do dado, seguido pela camada row e depois camada ready.
+</details>
+ 
+ <details>
+  <summary>Árvore de decisão</summary>
+ 
+ Organiza e estrutura regras de classificação e decisão em formato de diagrama de árvore, com a pretenção de predizer resultados futuros.
 </details>
  
 <details>
@@ -116,13 +128,19 @@ Brief explanations of Data terms
 <details>
   <summary>Data lake</summary>
  
- Repositório centralizado de dados brutos e não estruturados, mais comumente implementado numa plataforma de armazenamento baseada em nuvem. Tudo o que tem de dado, seja de qualquer tipo (relacional, não relacional, estruturado, não estruturado, etc.). Dados estruturados em diferentes camadas.
+ Repositório centralizado de dados brutos, mais comumente implementado numa plataforma de armazenamento baseada em nuvem. Tudo o que tem de dados, oriundos de diversas fontes, seja de qualquer tipo (relacional, não relacional, estruturado, não estruturado, etc.). 
 </details>
 
 <details>
   <summary>Data mart</summary>
  
- Coleção de dados de um processo específico de negócios.
+ Coleção de dados de um processo específico de negócios. Pode ser considerado um pequeno data warehouse ou parte de um grande data warehouse, delimitando uma determinada área de assunto e oferecendo informações mais detalhadas sobre o mercado em questão.
+ </details>
+ 
+ <details>
+  <summary>Data mining</summary>
+ 
+ "Mineração de Dados". Consiste em um processo analítico projetado para explorar grandes quantidades de dados na busca de padrões consistentes e relacionamentos sistemáticos entre variáveis e, então, validá-los aplicando os padrões detectados a novos subconjuntos de dados. Se divide em três etapas: exploração, construção de modelo e validação.
  </details>
 
 <details>
@@ -197,6 +215,18 @@ Documentos com todas as informações correlacionadas à principal (estruturas d
 </details>
 
 <details>
+  <summary>OLAP (Online Analytical Processing)</summary>
+ 
+ Trata da capacidade de analisar grandes volumes de informações nas mais diversas perspectivas dentro de um Data Warehouse. Também dá suporte a ferramentas analíticas.
+</details>
+
+<details>
+  <summary>OLTP (Online Transaction Processing)</summary>
+ 
+ Sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
+</details>
+
+<details>
   <summary>Pandas</summary>
  
  Biblioteca de Python voltada a ciência de dados.
@@ -231,6 +261,12 @@ Pipelines são fluxos onde a entrada de um dado é processado e enviado para out
 <details>
   <summary>R</summary>
  
+</details>
+
+<details>
+  <summary>Redes neurais</summary>
+ 
+ Algoritmos computacionais que simulam células neurais conectadas entre si, capazes de aprender em ciclos de análise e reconhecimento de padrões, apoiando novos ciclos e decisões.
 </details>
 
 <details>
